@@ -4,9 +4,6 @@ using System;
 using System.Net;
 using System.Collections.Generic;
 using System.Web.Script.Serialization;
-
-
-
 public partial class CSharp : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
