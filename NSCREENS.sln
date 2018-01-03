@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NSCREENS", "NSCREENS\", "{E6AD1E3D-739C-4E5C-9807-FC9AFBC796FA}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_33903"
+		Debug.AspNetCompiler.PhysicalPath = "D:\CLIENTS\NSCREENS PROJECT\NSCREENS PROJECT\NSCREENS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_33903\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_33903"
+		Release.AspNetCompiler.PhysicalPath = "D:\CLIENTS\NSCREENS PROJECT\NSCREENS PROJECT\NSCREENS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_33903\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "33903"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6AD1E3D-739C-4E5C-9807-FC9AFBC796FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6AD1E3D-739C-4E5C-9807-FC9AFBC796FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

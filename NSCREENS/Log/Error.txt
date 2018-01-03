@@ -1,0 +1,943 @@
+Log Date & Time : 02/16/2017 16:12:57
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'Sp_Login_InsertFail'.
+   at MasterCode.InsertFail(MasterCode objMasterCode) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 210
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 320
+ClientConnectionId:ae073618-aa9f-4f09-ae0b-aa178b02b1b5
+Error Number:2812,State:62,Class:16
+
+
+Log Date & Time : 02/18/2017 11:57:17
+Event Name : Error occurred in OnClick method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 309
+
+
+Log Date & Time : 02/18/2017 11:58:05
+Event Name : Error occurred in OnClick method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 309
+
+
+Log Date & Time : 02/18/2017 11:59:15
+Event Name : Error occurred in OnClick method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 309
+
+
+Log Date & Time : 02/18/2017 12:00:09
+Event Name : Error occurred in OnClick method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 309
+
+
+Log Date & Time : 02/18/2017 12:26:41
+Event Name : Error occurred in OnClick method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 309
+
+
+Log Date & Time : 02/18/2017 13:40:27
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'Sp_Login_InsertFail'.
+   at MasterCode.InsertFail(MasterCode objMasterCode) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 210
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 326
+ClientConnectionId:551ff41a-4c01-43c9-9918-8cf5e30b5adc
+Error Number:2812,State:62,Class:16
+
+
+Log Date & Time : 02/28/2017 16:43:46
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'Sp_Login_InsertFail'.
+   at MasterCode.InsertFail(MasterCode objMasterCode) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 210
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 326
+ClientConnectionId:d3527129-33f2-42f1-8f0a-7140ac293acb
+Error Number:2812,State:62,Class:16
+
+
+Log Date & Time : 03/15/2017 14:11:15
+Event Name : Error occurred in OnClick method.
+Error Message : System.InvalidOperationException: ExecuteReader: CommandText property has not been initialized
+   at MasterCode.RetrieveQuery(String Query) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 126
+   at Admin_frmProduction.btn_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmProduction.aspx.cs:line 158
+
+
+Log Date & Time : 03/15/2017 14:13:15
+Event Name : Error occurred in OnClick method.
+Error Message : System.InvalidOperationException: ExecuteReader: CommandText property has not been initialized
+   at MasterCode.RetrieveQuery(String Query) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 126
+   at Admin_frmProduction.btn_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmProduction.aspx.cs:line 158
+
+
+Log Date & Time : 03/15/2017 14:13:52
+Event Name : Error occurred in OnClick method.
+Error Message : System.InvalidOperationException: ExecuteReader: CommandText property has not been initialized
+   at MasterCode.RetrieveQuery(String Query) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 126
+   at Admin_frmProduction.btn_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmProduction.aspx.cs:line 158
+
+
+Log Date & Time : 03/15/2017 14:20:28
+Event Name : Error occurred in OnClick method.
+Error Message : System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at Admin_frmProduction.btn_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmProduction.aspx.cs:line 169
+
+
+Log Date & Time : 03/16/2017 14:04:06
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'Sp_Login_InsertFail'.
+   at MasterCode.InsertFail(MasterCode objMasterCode) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 210
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 377
+ClientConnectionId:8d00b277-7c46-4a74-b557-e82d03a430d4
+Error Number:2812,State:62,Class:16
+
+
+Log Date & Time : 03/16/2017 15:40:34
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'Sp_Login_InsertFail'.
+   at MasterCode.InsertFail(MasterCode objMasterCode) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 210
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 377
+ClientConnectionId:5fe750cb-1348-4982-8756-336769f632e8
+Error Number:2812,State:62,Class:16
+
+
+Log Date & Time : 03/17/2017 14:29:33
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'Sp_Login_InsertFail'.
+   at MasterCode.InsertFail(MasterCode objMasterCode) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 210
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 377
+ClientConnectionId:d68dfc23-8481-4798-b9f7-dde8c9c2e0c3
+Error Number:2812,State:62,Class:16
+
+
+Log Date & Time : 03/17/2017 17:55:01
+Event Name : Error occurred in Callback method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Column "tbl_Admin_Channel.Channel_Name" is invalid in the ORDER BY clause because it is not contained in either an aggregate function or the GROUP BY clause.
+   at MasterCode.RetrieveQuery(String Query) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 126
+   at Admin_frmProduction.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmProduction.aspx.cs:line 120
+ClientConnectionId:c2c19968-1da4-461d-be79-e51fcb9b2896
+Error Number:8127,State:1,Class:16
+
+
+Log Date & Time : 03/17/2017 17:57:04
+Event Name : Error occurred in Callback method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Column "tbl_Admin_Channel.Channel_Name" is invalid in the ORDER BY clause because it is not contained in either an aggregate function or the GROUP BY clause.
+   at MasterCode.RetrieveQuery(String Query) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 126
+   at Admin_frmProduction.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmProduction.aspx.cs:line 120
+ClientConnectionId:27bdc105-bf83-4f37-86e0-df91d69d8d8a
+Error Number:8127,State:1,Class:16
+
+
+Log Date & Time : 03/21/2017 17:46:36
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmProduction.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmProduction.aspx.cs:line 120
+
+
+Log Date & Time : 03/22/2017 10:15:18
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'Sp_Login_InsertFail'.
+   at MasterCode.InsertFail(MasterCode objMasterCode) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 210
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 377
+ClientConnectionId:f22de959-e86d-4beb-b5fa-9b6d661b9653
+Error Number:2812,State:62,Class:16
+
+
+Log Date & Time : 03/22/2017 10:15:31
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'Sp_Login_InsertFail'.
+   at MasterCode.InsertFail(MasterCode objMasterCode) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 210
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 377
+ClientConnectionId:f22de959-e86d-4beb-b5fa-9b6d661b9653
+Error Number:2812,State:62,Class:16
+
+
+Log Date & Time : 03/22/2017 10:47:06
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmProduction.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmProduction.aspx.cs:line 125
+
+
+Log Date & Time : 03/22/2017 10:47:16
+Event Name : Error occurred in OnRowCommand method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmProduction.gvProduction_RowCommand(Object sender, GridViewCommandEventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmProduction.aspx.cs:line 212
+
+
+Log Date & Time : 03/22/2017 10:48:42
+Event Name : Error occurred in OnRowCommand method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmProduction.gvProduction_RowCommand(Object sender, GridViewCommandEventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmProduction.aspx.cs:line 212
+
+
+Log Date & Time : 03/22/2017 10:48:47
+Event Name : Error occurred in OnRowCommand method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmProduction.gvProduction_RowCommand(Object sender, GridViewCommandEventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmProduction.aspx.cs:line 212
+
+
+Log Date & Time : 03/22/2017 10:48:50
+Event Name : Error occurred in OnRowCommand method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmProduction.gvProduction_RowCommand(Object sender, GridViewCommandEventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmProduction.aspx.cs:line 212
+
+
+Log Date & Time : 03/22/2017 14:39:51
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Incorrect syntax near the keyword 'as'.
+   at MasterCode.RetrieveQuery(String Query) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 126
+   at Password_frmChangePassword.btnSubmit_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmChangePassword.aspx.cs:line 103
+ClientConnectionId:5c6ceeac-f08a-46a5-978c-6ad1870ffd65
+Error Number:102,State:1,Class:15
+
+
+Log Date & Time : 03/22/2017 14:41:44
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'Sp_Login_InsertFail'.
+   at MasterCode.InsertFail(MasterCode objMasterCode) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 210
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 377
+ClientConnectionId:f0132932-e82b-4002-91da-e33830ce25cc
+Error Number:2812,State:62,Class:16
+
+
+Log Date & Time : 03/22/2017 14:42:29
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'Sp_Login_InsertFail'.
+   at MasterCode.InsertFail(MasterCode objMasterCode) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 210
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 377
+ClientConnectionId:f0132932-e82b-4002-91da-e33830ce25cc
+Error Number:2812,State:62,Class:16
+
+
+Log Date & Time : 03/22/2017 14:44:09
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Incorrect syntax near the keyword 'as'.
+   at MasterCode.RetrieveQuery(String Query) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 126
+   at Password_frmChangePassword.btnSubmit_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmChangePassword.aspx.cs:line 103
+ClientConnectionId:227702e7-0677-4440-813e-e6d5ffc7fe4d
+Error Number:102,State:1,Class:15
+
+
+Log Date & Time : 03/22/2017 14:45:39
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Incorrect syntax near the keyword 'as'.
+   at MasterCode.RetrieveQuery(String Query) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 126
+   at Password_frmChangePassword.btnSubmit_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmChangePassword.aspx.cs:line 103
+ClientConnectionId:84cb6a7d-b4f1-46be-81fa-b97a13334c2c
+Error Number:102,State:1,Class:15
+
+
+Log Date & Time : 03/22/2017 14:46:47
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Incorrect syntax near the keyword 'as'.
+   at MasterCode.RetrieveQuery(String Query) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 126
+   at Password_frmChangePassword.btnSubmit_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmChangePassword.aspx.cs:line 103
+ClientConnectionId:f31f3913-a0de-4cf0-8b44-646764c9ad3e
+Error Number:102,State:1,Class:15
+
+
+Log Date & Time : 03/22/2017 14:47:06
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'Sp_Login_InsertFail'.
+   at MasterCode.InsertFail(MasterCode objMasterCode) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 210
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 377
+ClientConnectionId:1704661c-3b62-4814-a56c-e2e0a3f57b50
+Error Number:2812,State:62,Class:16
+
+
+Log Date & Time : 03/22/2017 14:47:43
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'Sp_Login_InsertFail'.
+   at MasterCode.InsertFail(MasterCode objMasterCode) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 210
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 377
+ClientConnectionId:1704661c-3b62-4814-a56c-e2e0a3f57b50
+Error Number:2812,State:62,Class:16
+
+
+Log Date & Time : 03/22/2017 14:49:32
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'Sp_Login_InsertFail'.
+   at MasterCode.InsertFail(MasterCode objMasterCode) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 210
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 377
+ClientConnectionId:ae654051-4fe0-4f52-b148-48105f27fc02
+Error Number:2812,State:62,Class:16
+
+
+Log Date & Time : 04/08/2017 18:01:41
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'Sp_Login_InsertFail'.
+   at MasterCode.InsertFail(MasterCode objMasterCode) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 210
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 377
+ClientConnectionId:1d4a6601-6c46-4a63-9d84-74ee9099a00b
+Error Number:2812,State:62,Class:16
+
+
+Log Date & Time : 04/11/2017 14:36:13
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'Sp_Login_InsertFail'.
+   at MasterCode.InsertFail(MasterCode objMasterCode) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 210
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 377
+ClientConnectionId:34272982-964d-416f-bee3-d4d55cd869b5
+Error Number:2812,State:62,Class:16
+
+
+Log Date & Time : 04/15/2017 10:23:41
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'Sp_Login_InsertFail'.
+   at MasterCode.InsertFail(MasterCode objMasterCode) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 210
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 377
+ClientConnectionId:559a5912-45ea-4c2e-8646-e5f82ad950cd
+Error Number:2812,State:62,Class:16
+
+
+Log Date & Time : 04/19/2017 15:55:01
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'Sp_Login_InsertLogDetails'.
+   at MasterCode.InsertLoginDetails(MasterCode objMasterCode) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 175
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 346
+ClientConnectionId:b10acd0d-5fce-4ea7-9765-a9c8fe3275eb
+Error Number:2812,State:62,Class:16
+
+
+Log Date & Time : 04/19/2017 15:55:11
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'Sp_Login_InsertLogDetails'.
+   at MasterCode.InsertLoginDetails(MasterCode objMasterCode) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 175
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 346
+ClientConnectionId:b10acd0d-5fce-4ea7-9765-a9c8fe3275eb
+Error Number:2812,State:62,Class:16
+
+
+Log Date & Time : 04/19/2017 15:57:01
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'Sp_Login_InsertLogDetails'.
+   at MasterCode.InsertLoginDetails(MasterCode objMasterCode) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 175
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 346
+ClientConnectionId:921d21b3-df70-4492-b336-bca05ce932cd
+Error Number:2812,State:62,Class:16
+
+
+Log Date & Time : 04/19/2017 15:57:58
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'SP_Login_InsertLogInDetails' expects parameter '@UserCode', which was not supplied.
+   at MasterCode.InsertLoginDetails(MasterCode objMasterCode) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 175
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 346
+ClientConnectionId:d635a592-43eb-42d5-809b-0205de18190f
+Error Number:201,State:4,Class:16
+
+
+Log Date & Time : 04/19/2017 16:01:16
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'UserCode', table 'Project_Nscreens_V0.dbo.tbl_Login_LogDetails'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at MasterCode.InsertLoginDetails(MasterCode objMasterCode) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 175
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 346
+ClientConnectionId:a7767ae1-4fe4-4b82-8e06-fd6019e7fb50
+Error Number:515,State:2,Class:16
+
+
+Log Date & Time : 04/19/2017 16:01:58
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'SP_Login_InsertLogInDetails'.
+   at MasterCode.InsertLoginDetails(MasterCode objMasterCode) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 175
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 346
+ClientConnectionId:9a0c5423-8aa0-412e-baf9-53621c7df1bc
+Error Number:2812,State:62,Class:16
+
+
+Log Date & Time : 04/19/2017 16:02:50
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'tblUsers'.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.
+   at MasterCode.InsertLoginDetails(MasterCode objMasterCode) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 175
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 346
+ClientConnectionId:a15c5bdd-5d89-45c4-8410-a93ef9eb59cd
+Error Number:208,State:1,Class:16
+
+
+Log Date & Time : 04/19/2017 16:06:46
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'Sp_Login_SetBlock'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlHelper.ExecuteNonQuery(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\DL\SqlHelper.cs:line 238
+   at SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\DL\SqlHelper.cs:line 161
+   at MasterCode.Block() in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 224
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 387
+ClientConnectionId:cf2045b9-bce1-4a98-aa5e-0638344b5d46
+Error Number:2812,State:62,Class:16
+
+
+Log Date & Time : 04/27/2017 17:16:50
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmSharingBudget.aspx.cs:line 87
+
+
+Log Date & Time : 05/15/2017 06:15:47
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Incorrect syntax near the keyword 'as'.
+   at MasterCode.RetrieveQuery(String Query) in h:\root\home\aditya49-001\www\nscreens\App_Code\BL\MasterCode.cs:line 126
+   at Login.btnSubmit_Click(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Login.aspx.cs:line 566
+ClientConnectionId:38d6ea8b-cd3b-454a-8f56-6626d48b4e19
+Error Number:102,State:1,Class:15
+
+
+Log Date & Time : 05/15/2017 06:15:53
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Incorrect syntax near the keyword 'as'.
+   at MasterCode.RetrieveQuery(String Query) in h:\root\home\aditya49-001\www\nscreens\App_Code\BL\MasterCode.cs:line 126
+   at Login.btnSubmit_Click(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Login.aspx.cs:line 566
+ClientConnectionId:38d6ea8b-cd3b-454a-8f56-6626d48b4e19
+Error Number:102,State:1,Class:15
+
+
+Log Date & Time : 05/15/2017 06:15:57
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Incorrect syntax near the keyword 'as'.
+   at MasterCode.RetrieveQuery(String Query) in h:\root\home\aditya49-001\www\nscreens\App_Code\BL\MasterCode.cs:line 126
+   at Login.btnSubmit_Click(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Login.aspx.cs:line 566
+ClientConnectionId:38d6ea8b-cd3b-454a-8f56-6626d48b4e19
+Error Number:102,State:1,Class:15
+
+
+Log Date & Time : 05/15/2017 06:16:09
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Incorrect syntax near the keyword 'as'.
+   at MasterCode.RetrieveQuery(String Query) in h:\root\home\aditya49-001\www\nscreens\App_Code\BL\MasterCode.cs:line 126
+   at Login.btnSubmit_Click(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Login.aspx.cs:line 566
+ClientConnectionId:38d6ea8b-cd3b-454a-8f56-6626d48b4e19
+Error Number:102,State:1,Class:15
+
+
+Log Date & Time : 05/15/2017 06:16:21
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Incorrect syntax near the keyword 'as'.
+   at MasterCode.RetrieveQuery(String Query) in h:\root\home\aditya49-001\www\nscreens\App_Code\BL\MasterCode.cs:line 126
+   at Login.btnSubmit_Click(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Login.aspx.cs:line 566
+ClientConnectionId:38d6ea8b-cd3b-454a-8f56-6626d48b4e19
+Error Number:102,State:1,Class:15
+
+
+Log Date & Time : 05/15/2017 11:38:41
+Event Name : Error occurred in OnClick method.
+Error Message : System.ArgumentException: The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at Password_frmChangePassword.btnSubmit_Click(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Admin\frmChangePassword.aspx.cs:line 123
+
+
+Log Date & Time : 05/15/2017 11:42:41
+Event Name : Error occurred in OnClick method.
+Error Message : System.ArgumentException: The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at Password_frmChangePassword.btnSubmit_Click(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Admin\frmChangePassword.aspx.cs:line 123
+
+
+Log Date & Time : 05/16/2017 10:38:14
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Incorrect syntax near the keyword 'as'.
+   at MasterCode.RetrieveQuery(String Query) in h:\root\home\aditya49-001\www\nscreens\App_Code\BL\MasterCode.cs:line 126
+   at Login.btnSubmit_Click(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Login.aspx.cs:line 566
+ClientConnectionId:b6444d3f-7097-4d94-a1a6-ac542aa09306
+Error Number:102,State:1,Class:15
+
+
+Log Date & Time : 05/16/2017 10:38:41
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Incorrect syntax near the keyword 'as'.
+   at MasterCode.RetrieveQuery(String Query) in h:\root\home\aditya49-001\www\nscreens\App_Code\BL\MasterCode.cs:line 126
+   at Login.btnSubmit_Click(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Login.aspx.cs:line 566
+ClientConnectionId:b6444d3f-7097-4d94-a1a6-ac542aa09306
+Error Number:102,State:1,Class:15
+
+
+Log Date & Time : 06/22/2017 10:24:09
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Incorrect syntax near the keyword 'as'.
+   at MasterCode.RetrieveQuery(String Query) in h:\root\home\aditya49-001\www\nscreens\App_Code\BL\MasterCode.cs:line 126
+   at Login.btnSubmit_Click(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Login.aspx.cs:line 632
+ClientConnectionId:280743f9-0c72-460b-9a6a-4638861e1db1
+Error Number:102,State:1,Class:15
+
+
+Log Date & Time : 06/22/2017 10:24:13
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Incorrect syntax near the keyword 'as'.
+   at MasterCode.RetrieveQuery(String Query) in h:\root\home\aditya49-001\www\nscreens\App_Code\BL\MasterCode.cs:line 126
+   at Login.btnSubmit_Click(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Login.aspx.cs:line 632
+ClientConnectionId:280743f9-0c72-460b-9a6a-4638861e1db1
+Error Number:102,State:1,Class:15
+
+
+Log Date & Time : 07/09/2017 23:12:30
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmArtistDetails.Page_Load(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Admin\frmArtistDetails.aspx.cs:line 208
+
+
+Log Date & Time : 07/28/2017 03:06:15
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Incorrect syntax near the keyword 'as'.
+   at MasterCode.RetrieveQuery(String Query) in h:\root\home\aditya49-001\www\nscreens\App_Code\BL\MasterCode.cs:line 126
+   at Login.btnSubmit_Click(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Login.aspx.cs:line 633
+ClientConnectionId:5783b090-a370-449a-93ef-79b1bdc77deb
+Error Number:102,State:1,Class:15
+
+
+Log Date & Time : 07/28/2017 03:06:19
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Incorrect syntax near the keyword 'as'.
+   at MasterCode.RetrieveQuery(String Query) in h:\root\home\aditya49-001\www\nscreens\App_Code\BL\MasterCode.cs:line 126
+   at Login.btnSubmit_Click(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Login.aspx.cs:line 633
+ClientConnectionId:5783b090-a370-449a-93ef-79b1bdc77deb
+Error Number:102,State:1,Class:15
+
+
+Log Date & Time : 08/15/2017 03:27:14
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmProduction.Page_Load(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Admin\frmProduction.aspx.cs:line 159
+
+
+Log Date & Time : 08/16/2017 02:09:16
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Admin\frmTrailerUpload.aspx.cs:line 229
+
+
+Log Date & Time : 08/22/2017 11:44:41
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Cannot open database "DB_9B0EE3_Ncreens" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at MasterCode.RetrieveQuery(String Query) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\MasterCode.cs:line 126
+   at Login.btnLogin_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Login.aspx.cs:line 416
+ClientConnectionId:84848ecc-1b53-4fc5-8420-6d195e783297
+Error Number:4060,State:1,Class:11
+
+
+Log Date & Time : 08/22/2017 17:27:17
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmMyTitles.aspx.cs:line 117
+
+
+Log Date & Time : 08/22/2017 17:27:24
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmMyTitles.aspx.cs:line 117
+
+
+Log Date & Time : 08/23/2017 15:48:21
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmTitleRegister.aspx.cs:line 172
+
+
+Log Date & Time : 08/23/2017 15:53:15
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmTitleRegister.aspx.cs:line 172
+
+
+Log Date & Time : 08/28/2017 11:43:45
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmTitleRegister.aspx.cs:line 172
+
+
+Log Date & Time : 08/30/2017 13:10:08
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmTitleRegister.aspx.cs:line 172
+
+
+Log Date & Time : 08/31/2017 16:48:01
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmTitleRegister.aspx.cs:line 173
+
+
+Log Date & Time : 08/31/2017 17:47:12
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmTitleRegister.aspx.cs:line 173
+
+
+Log Date & Time : 09/06/2017 14:29:10
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmArtistDetails.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmArtistDetails.aspx.cs:line 232
+
+
+Log Date & Time : 09/06/2017 15:34:17
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmSharingBudget.aspx.cs:line 95
+
+
+Log Date & Time : 09/06/2017 15:52:35
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmSharingBudget.aspx.cs:line 95
+
+
+Log Date & Time : 09/07/2017 10:59:08
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmSharingBudget.aspx.cs:line 108
+
+
+Log Date & Time : 09/07/2017 11:54:28
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmSharingBudget.aspx.cs:line 133
+
+
+Log Date & Time : 09/18/2017 18:10:50
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmSharingBudget.aspx.cs:line 133
+
+
+Log Date & Time : 09/19/2017 12:40:10
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmSharingBudget.aspx.cs:line 133
+
+
+Log Date & Time : 09/19/2017 12:47:25
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmSharingBudget.aspx.cs:line 133
+
+
+Log Date & Time : 09/19/2017 12:47:29
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmSharingBudget.aspx.cs:line 133
+
+
+Log Date & Time : 09/19/2017 15:21:58
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmSharingBudget.aspx.cs:line 133
+
+
+Log Date & Time : 09/19/2017 16:50:34
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmSharingBudget.aspx.cs:line 133
+
+
+Log Date & Time : 09/23/2017 12:02:21
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at frmRecharge.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmRecharge.aspx.cs:line 98
+
+
+Log Date & Time : 09/23/2017 16:08:15
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'Sp_Recharge' expects parameter '@Area', which was not supplied.
+   at Recharge.Send_Data_To_DB(Recharge objRecharge) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\Recharge.cs:line 80
+   at Admin_frmHome.btn_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmAllAdvatizment.aspx.cs:line 244
+ClientConnectionId:8fe2887c-e882-4cbc-acae-f85c1b22b8c5
+Error Number:201,State:4,Class:16
+
+
+Log Date & Time : 09/23/2017 16:08:52
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'Sp_Recharge' expects parameter '@Area', which was not supplied.
+   at Recharge.Send_Data_To_DB(Recharge objRecharge) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\Recharge.cs:line 80
+   at Admin_frmHome.btn_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmAllAdvatizment.aspx.cs:line 244
+ClientConnectionId:8fe2887c-e882-4cbc-acae-f85c1b22b8c5
+Error Number:201,State:4,Class:16
+
+
+Log Date & Time : 09/23/2017 16:09:59
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Request' when IDENTITY_INSERT is set to OFF.
+   at Recharge.Send_Data_To_DB(Recharge objRecharge) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\Recharge.cs:line 80
+   at Admin_frmHome.btn_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmAllAdvatizment.aspx.cs:line 245
+ClientConnectionId:8fe2887c-e882-4cbc-acae-f85c1b22b8c5
+Error Number:544,State:1,Class:16
+
+
+Log Date & Time : 09/23/2017 16:11:24
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Request' when IDENTITY_INSERT is set to OFF.
+   at Recharge.Send_Data_To_DB(Recharge objRecharge) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\Recharge.cs:line 80
+   at Admin_frmHome.btn_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmAllAdvatizment.aspx.cs:line 245
+ClientConnectionId:09cd93c5-0424-40a6-8946-b2c63e27ec79
+Error Number:544,State:1,Class:16
+
+
+Log Date & Time : 09/23/2017 16:18:47
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at Recharge.Send_Data_To_DB(Recharge objRecharge) in e:\Navya\Work\Sureshsir_Projects\NScreens\App_Code\BL\Recharge.cs:line 80
+   at Admin_frmHome.btn_Click(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmAllAdvatizment.aspx.cs:line 245
+ClientConnectionId:09cd93c5-0424-40a6-8946-b2c63e27ec79
+Error Number:8152,State:4,Class:16
+
+
+Log Date & Time : 09/26/2017 12:17:21
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmTitleRegister.aspx.cs:line 173
+
+
+Log Date & Time : 09/26/2017 16:02:31
+Event Name : Error occurred in OnRowCommand method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmAddOffers.gvDistrict_RowCommand(Object sender, GridViewCommandEventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmAddOffers.aspx.cs:line 273
+
+
+Log Date & Time : 09/27/2017 14:12:14
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmTitleRegister.aspx.cs:line 173
+
+
+Log Date & Time : 09/27/2017 14:43:38
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in e:\Navya\Work\Sureshsir_Projects\NScreens\Admin\frmTitleRegister.aspx.cs:line 173
+
+
+Log Date & Time : 09/28/2017 23:34:00
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at MasterCode.RetrieveQuery(String Query) in d:\CLIENTS\NSCREENS PROJECT\2017_9_28\NScreens\App_Code\BL\MasterCode.cs:line 126
+   at Login.btnLogin_Click(Object sender, EventArgs e) in d:\CLIENTS\NSCREENS PROJECT\2017_9_28\NScreens\Login.aspx.cs:line 451
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+
+
+Log Date & Time : 09/28/2017 23:34:34
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at MasterCode.RetrieveQuery(String Query) in d:\CLIENTS\NSCREENS PROJECT\2017_9_28\NScreens\App_Code\BL\MasterCode.cs:line 126
+   at Login.btnLogin_Click(Object sender, EventArgs e) in d:\CLIENTS\NSCREENS PROJECT\2017_9_28\NScreens\Login.aspx.cs:line 451
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+
+
+Log Date & Time : 09/29/2017 11:36:47
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Admin\frmSharingBudget.aspx.cs:line 133
+
+
+Log Date & Time : 10/11/2017 05:37:32
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmPromocodeList.Page_Load(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Admin\frmPromocodeList.aspx.cs:line 124
+
+
+Log Date & Time : 10/11/2017 05:40:28
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmPromocodeList.Page_Load(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Admin\frmPromocodeList.aspx.cs:line 124
+
+
+Log Date & Time : 10/11/2017 05:41:26
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmPromocodeList.Page_Load(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Admin\frmPromocodeList.aspx.cs:line 124
+
+
+Log Date & Time : 10/11/2017 05:41:28
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmPromocodeList.Page_Load(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Admin\frmPromocodeList.aspx.cs:line 124
+
+
+Log Date & Time : 10/11/2017 05:41:30
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmPromocodeList.Page_Load(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Admin\frmPromocodeList.aspx.cs:line 124
+
+
+Log Date & Time : 10/11/2017 05:42:54
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmPromocodeList.Page_Load(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Admin\frmPromocodeList.aspx.cs:line 124
+
+
+Log Date & Time : 10/20/2017 21:28:48
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Incorrect syntax near the keyword 'as'.
+   at MasterCode.RetrieveQuery(String Query) in h:\root\home\aditya49-001\www\nscreens\App_Code\BL\MasterCode.cs:line 126
+   at Login.btnSubmit_Click(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Login.aspx.cs:line 668
+ClientConnectionId:c297c49d-8835-4463-be86-ca8208834e2b
+Error Number:102,State:1,Class:15
+
+
+Log Date & Time : 10/20/2017 21:29:00
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Incorrect syntax near the keyword 'as'.
+   at MasterCode.RetrieveQuery(String Query) in h:\root\home\aditya49-001\www\nscreens\App_Code\BL\MasterCode.cs:line 126
+   at Login.btnSubmit_Click(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Login.aspx.cs:line 668
+ClientConnectionId:c297c49d-8835-4463-be86-ca8208834e2b
+Error Number:102,State:1,Class:15
+
+
+Log Date & Time : 10/20/2017 21:29:03
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Incorrect syntax near the keyword 'as'.
+   at MasterCode.RetrieveQuery(String Query) in h:\root\home\aditya49-001\www\nscreens\App_Code\BL\MasterCode.cs:line 126
+   at Login.btnSubmit_Click(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Login.aspx.cs:line 668
+ClientConnectionId:c297c49d-8835-4463-be86-ca8208834e2b
+Error Number:102,State:1,Class:15
+
+
+Log Date & Time : 10/20/2017 21:29:06
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Incorrect syntax near the keyword 'as'.
+   at MasterCode.RetrieveQuery(String Query) in h:\root\home\aditya49-001\www\nscreens\App_Code\BL\MasterCode.cs:line 126
+   at Login.btnSubmit_Click(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Login.aspx.cs:line 668
+ClientConnectionId:c297c49d-8835-4463-be86-ca8208834e2b
+Error Number:102,State:1,Class:15
+
+
+Log Date & Time : 10/25/2017 03:54:55
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Incorrect syntax near the keyword 'as'.
+   at MasterCode.RetrieveQuery(String Query) in h:\root\home\aditya49-001\www\nscreens\App_Code\BL\MasterCode.cs:line 126
+   at Login.btnSubmit_Click(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Login.aspx.cs:line 668
+ClientConnectionId:354f9acb-7c60-4159-a12e-35bc0912eb0e
+Error Number:102,State:1,Class:15
+
+
+Log Date & Time : 10/30/2017 22:43:36
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Incorrect syntax near the keyword 'as'.
+   at MasterCode.RetrieveQuery(String Query) in h:\root\home\aditya49-001\www\nscreens\App_Code\BL\MasterCode.cs:line 126
+   at Login.btnSubmit_Click(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Login.aspx.cs:line 668
+ClientConnectionId:0303c420-257b-4812-bade-7fff9af8585f
+Error Number:102,State:1,Class:15
+
+
+Log Date & Time : 10/31/2017 04:40:23
+Event Name : Error occurred in createEmailBody method.
+Error Message : System.FormatException: The specified string is not in the form required for an e-mail address.
+   at System.Net.Mail.MailAddressParser.ReadCfwsAndThrowIfIncomplete(String data, Int32 index)
+   at System.Net.Mail.MailAddressParser.ParseDomain(String data, Int32& index)
+   at System.Net.Mail.MailAddressParser.ParseAddress(String data, Boolean expectMultipleAddresses, Int32& index)
+   at System.Net.Mail.MailAddressParser.ParseAddress(String data)
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at System.Net.Mail.MailAddress..ctor(String address)
+   at SendEmail.SendMailRegistration(String body, String EmailId) in h:\root\home\aditya49-001\www\nscreens\App_Code\BL\SendEmail.cs:line 71
+
+
+Log Date & Time : 10/31/2017 04:46:27
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Incorrect syntax near the keyword 'as'.
+   at MasterCode.RetrieveQuery(String Query) in h:\root\home\aditya49-001\www\nscreens\App_Code\BL\MasterCode.cs:line 126
+   at Login.btnSubmit_Click(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Login.aspx.cs:line 669
+ClientConnectionId:513d9511-492e-4aae-ad9e-682934059d2a
+Error Number:102,State:1,Class:15
+
+
+Log Date & Time : 11/02/2017 01:42:04
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Incorrect syntax near the keyword 'as'.
+   at MasterCode.RetrieveQuery(String Query) in h:\root\home\aditya49-001\www\nscreens\App_Code\BL\MasterCode.cs:line 126
+   at Login.btnSubmit_Click(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Login.aspx.cs:line 669
+ClientConnectionId:efe13d50-6e1a-433d-a7d5-77c0b97102ad
+Error Number:102,State:1,Class:15
+
+
+Log Date & Time : 11/02/2017 02:56:15
+Event Name : Error occurred in OnClick method.
+Error Message : System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+Incorrect syntax near the keyword 'as'.
+   at MasterCode.RetrieveQuery(String Query) in h:\root\home\aditya49-001\www\nscreens\App_Code\BL\MasterCode.cs:line 126
+   at Login.btnSubmit_Click(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Login.aspx.cs:line 669
+ClientConnectionId:f4eceb6c-9db2-4cc1-8b92-8f92b492948f
+Error Number:102,State:1,Class:15
+
+
+Log Date & Time : 11/03/2017 03:20:42
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Admin\frmTitleRegister.aspx.cs:line 177
+
+
+Log Date & Time : 11/03/2017 03:36:42
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmProduction.Page_Load(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Admin\frmProduction.aspx.cs:line 159
+
+
+Log Date & Time : 11/04/2017 00:39:13
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Admin\frmTitleRegister.aspx.cs:line 177
+
+
+Log Date & Time : 11/06/2017 22:05:07
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Admin\frmTitleRegister.aspx.cs:line 177
+
+
+Log Date & Time : 11/07/2017 10:03:49
+Event Name : Error occurred in OnClick method.
+Error Message : System.FormatException: The specified string is not in the form required for an e-mail address.
+   at System.Net.Mail.MailAddressParser.ReadCfwsAndThrowIfIncomplete(String data, Int32 index)
+   at System.Net.Mail.MailAddressParser.ParseDomain(String data, Int32& index)
+   at System.Net.Mail.MailAddressParser.ParseAddress(String data, Boolean expectMultipleAddresses, Int32& index)
+   at System.Net.Mail.MailAddressParser.ParseMultipleAddresses(String data)
+   at System.Net.Mail.MailAddressCollection.ParseValue(String addresses)
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at Admin_Settings.btnSubmit_Click(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Admin\Settings.aspx.cs:line 361
+
+
+Log Date & Time : 11/13/2017 05:26:27
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Admin\frmSharingBudget.aspx.cs:line 133
+
+
+Log Date & Time : 11/25/2017 03:12:13
+Event Name : Error occurred in Callback method.
+Error Message : System.NullReferenceException: Object reference not set to an instance of an object.
+   at Admin_frmTitleRegister.Page_Load(Object sender, EventArgs e) in h:\root\home\aditya49-001\www\nscreens\Admin\frmTitleRegister.aspx.cs:line 177
+
+

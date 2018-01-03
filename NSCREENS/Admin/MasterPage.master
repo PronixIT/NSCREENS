@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>jquery autocomplete textbox example with master page in asp.net</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/ui-lightness/jquery-ui.css">
+        <link href="http://code.jquery.com/ui/1.11.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet" type="text/css" />
+        <%--<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>--%>
+        <script src="../jquery-1.10.2.js"></script>
+        <script src="../jquery-ui.js"></script>
+        <%--<script type="text/javascript" src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>--%>
+        <script type="text/javascript">
+            $(function () {
+                SearchText();
+            });
+            function SearchText() {
+                $(".autosuggest").autocomplete({
+                    source: function (request, response) {
+                        $.ajax({
+                            type: "POST",
+                            contentType: "application/json; charset=utf-8",
+                            url: "AutoCompleteService.asmx/GetAutoCompleteData",
+                            data: "{'username':'" + $('#txtSearch').val() + "'}",
+                            dataType: "json",
+                            success: function (data) {
+                                if (data.d.length > 0) {
+                                    response($.map(data.d, function (item) {
+                                        //alert(data.d);
+                                        return {
+                                            label: item.split('/')[0],
+                                            val: item.split('/')[1]
+                                        }
+                                    }));
+                                }
+                                else {
+
+                                    response([{ label: 'No Records Found', val: -1 }]);
+                                    $('#txtSearch').val('');
+                                }
+                            },
+                            error: function (result) {
+                                alert("Error");
+                            }
+                        });
+                    },
+                    select: function (event, ui) {
+                        if (ui.item.val == -1) {
+                            return false;
+                        }
+                        //Get Selected Value
+                        //alert(ui.item.val);
+                    }
+                });
+            }
+        </script>
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="demo">
+            Master Page
+            <div class="ui-widget">
+                <label for="tbAuto">Enter UserName: </label>
+                <input type="text" id="txtSearch" class="autosuggest" />
+            </div>
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+    </form>
+</body>
+</html>

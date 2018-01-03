@@ -1,0 +1,113 @@
+﻿
+<head>
+    <title></title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        ul {
+            background-color: black;
+            height: 8%;
+            list-style: none;
+        }
+
+            ul > li {
+                padding: 23px;
+                float: left;
+                color: white;
+                width: auto;
+            }
+
+        li > a {
+            padding: 23px;
+            color: white;
+            text-decoration: none;
+        }
+
+        li:hover {
+            background-color: red;
+        }
+
+            li:hover > ul {
+                margin-left: -23px;
+                padding: 0px;
+                display: block;
+                position: absolute;
+                background-color: black;
+                top: 8%;
+            }
+
+        ul ul {
+            display: none;
+        }
+
+            ul ul li {
+                padding: 10px;
+                float: none;
+                background-color: black;
+            }
+
+                ul ul li:hover {
+                    padding: 10px;
+                    float: none;
+                    background-color: red;
+                }
+
+                    ul ul li:hover > ul {
+                        margin-left: 130px;
+                        padding: 0px;
+                        display: block;
+                        position: absolute;
+                        background-color: black;
+                        top: 180%;
+                        min-width: 150px;
+                    }
+
+            ul ul ul li {
+                background-color: black;
+            }
+
+        .sub-dropdown {
+            top: 15%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>
+                <a href="#">Main1</a>
+            </li>
+            <li>
+                <a href="#">Main2</a>
+            </li>
+            <li>
+                <a href="#">Main3</a>
+            </li>
+            <li>
+                <a href="#">Main4</a>
+            </li>
+            <li>
+                <a href="#">Main5</a>
+            </li>
+            <li>
+                Main6
+                <ul>
+                    <li><a href="#">Sub Menu1</a></li>
+                    <li><a href="#">Sub Menu2</a></li>
+                    <li><a href="#">Sub Menu3</a></li>
+                    <li>
+                        <a>Sub Menu4</a>
+                        <ul>
+                            <li><a href="#">Sub1 Menu1</a></li>
+                            <li><a href="#">Sub2 Menu2</a></li>
+                            <li><a href="#">Sub3 Menu3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

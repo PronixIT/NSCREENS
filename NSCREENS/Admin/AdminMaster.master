@@ -1,0 +1,440 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMaster.master.cs" Inherits="Admin_AdminMaster" %>
+
+<!DOCTYPE html>
+<%@ Register TagPrefix="ajax" Namespace="AjaxControlToolkit" Assembly="AjaxControlToolkit" %>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server" id="mainHead">
+    <meta charset="UTF-8">
+    <title>::NSCREENS::</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <%--<meta property="og:url" content="http://www.nscreens.com/Admin/frmSingle.aspx?shortfilm=1&userId=7" />
+<meta property="og:type" content="video.movie" />
+<meta property="og:title" content="ARJUN REDDY">
+<meta property="og:description" content="Arjun Reddy is an Indian Telugu-language film written and directed by Sandeep Reddy Vanga, produced by Pranay Vanga for Bhadrakali Pictures. The soundtrack is composed by Radhan">
+<meta property="og:image" content="http://www.nscreens.com/Video_Images/Shortfilm_6.jpg" />
+    <meta property="fb:app_id" content="566086956918274" />--%>
+    <!-- Style Sheets -->
+    <asp:PlaceHolder ID="MetaPlaceHolder" runat="server" />
+
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <!-- Font Icons -->
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/socicon-styles.css">
+    <!-- Font Icons -->
+    <link rel="stylesheet" href="../css/hover-min.css" />
+    <link rel="stylesheet" href="../css/animate.css" />
+    <link href="../css/Dumpmenu.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/css-menu.css" />
+    <link rel="stylesheet" href="../css/owl.carousel.css" />
+    <link rel="stylesheet" href="../css/loader.css" />
+
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/responsive.css">
+    <%--<link rel="stylesheet" type="text/css" href="css/login.css">--%>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="http://gc.kis.scr.kaspersky-labs.com/14C69ECA-009B-9D48-B3A2-8F241AB2A9FD/main.js" charset="UTF-8"></script>
+    <script src="../pnotify/jquery.min.js" type="text/javascript"></script>
+    <script src="../pnotify/jquery.pnotify.js" type="text/javascript"></script>
+    <link href="../pnotify/jquery.pnotify.default.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+        function pnotifySuccess(t, msg, ty) {
+            $(function () {
+                $.pnotify({
+                    title: t,
+                    text: msg,
+                    type: ty,
+                    styling: 'bootstrap',
+                    history: false
+                });
+            });
+        }
+
+       
+    </script>
+    <link href="../css/jquery-ui.css" rel="stylesheet" />
+  
+    <%--<script src="../jquery-1.10.2.js"></script>--%>
+    <script src="../jquery-ui.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            SearchText();
+        });
+        function SearchText() {
+            $(".autosuggest").autocomplete({
+                source: function (request, response) {
+                    $.ajax({
+                        type: "POST",
+                        contentType: "application/json; charset=utf-8",
+                        url: "AutoCompleteService.asmx/GetAutoCompleteData",
+                        data: "{'username':'" + $('#txtSearch1').val() + "'}",
+                        dataType: "json",
+                        success: function (data) {
+                            if (data.d.length > 0) {
+                                response($.map(data.d, function (item) {
+                                    //alert(data.d);
+                                    //alert(item.split('/')[1]);
+                                    return {
+                                        label: item.split('$')[0],
+                                        val: item.split('$')[1]
+                                    }
+                                }));
+                            }
+                            else {
+
+                                response([{ label: 'No Records Found', val: -1 }]);
+                                $('#txtSearch1').val('');
+                            }
+                        },
+                        error: function (result) {
+                            alert("Error");
+                        }
+                    });
+                },
+                select: function (event, ui) {
+                    if (ui.item.val == -1) {
+                        return false;
+                    }
+                    //Get Selected Value
+                    //alert(ui.item.val);
+                }
+            });
+        }
+    </script>
+    <script type="text/javascript">
+        $(function () {
+            SearchArtistText();
+        });
+        function SearchArtistText() {
+            $(".autosuggest1").autocomplete({
+                source: function (request, response) {
+                    $.ajax({
+                        type: "POST",
+                        contentType: "application/json; charset=utf-8",
+                        url: "AutoCompleteService.asmx/GetArtists",
+                        data: "{'Artistname':'" + $('#ContentPlaceHolder1_txtSearch').val() + "'}",
+                        dataType: "json",
+                        success: function (data) {
+
+
+
+                            var ert = eval(data);
+
+
+                            if (data.d.length > 0) {
+                                response($.map(data.d, function (item) {
+                                    //alert(data.d);
+                                    //alert(item.split('/')[1]);
+                                    return {
+
+
+                                        label: item.split('/')[0],
+                                        val: item.split('/')[1]
+                                    }
+                                    alert(item.split('/')[0]);
+                                    alert(item.split('/')[1]);
+                                }));
+                            }
+                            else {
+
+                                response([{ label: 'No Records Found', val: -1 }]);
+                                $('#ContentPlaceHolder1_txtSearch').val('');
+                            }
+                        },
+                        error: function (result) {
+                            alert("Error");
+                        }
+                    });
+                },
+                select: function (event, ui) {
+                    if (ui.item.val == -1) {
+                        return false;
+                    }
+                    //Get Selected Value
+                    //alert(ui.item.val);
+                }
+            });
+        }
+    </script>
+    <script type="text/javascript">
+        function MasterPagedivPopup() {
+            $('#myModalMasterPage').modal('show');
+
+            $('#myModalMasterPage').modal({
+                backdrop: true,
+                keyboard: true
+            })
+        }
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true"></asp:ScriptManager>
+        <div id="loader-container">
+            <div id="loader">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+        <div id="wrapper">
+            <div id="main-content">
+                <!-- Main Bar-->
+                <div id="main-bar">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-5 col-xs-6 border-right">
+                                <div class="logo">
+                                    <a href="frmHome.aspx">
+                                        <img class="img-responsive" src="../images/logo.png" alt="Logo">
+                                        <asp:Label ID="lblUrl" runat="server" Visible="false"></asp:Label>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="clearfix visible-sm"></div>
+                            <div class="clearfix visible-xs"></div>
+                            <div class="col-md-5 col-sm-4 border-right sm-border-top">
+                                <div class="search-box">
+                                    <asp:Panel ID="pnlsearch" runat="server" DefaultButton="lnkSearch">
+                                    <asp:TextBox ID="txtSearch1" runat="server" CssClass="autosuggest form-control" placeholder="Search Films"></asp:TextBox>
+                                    <asp:HiddenField ID="hfCustomerId" runat="server" />
+
+                                    <asp:LinkButton ID="lnkSearch" runat="server" CssClass="search-icon" OnClick="lnkSearch_Click"><i class="fa fa-search"></i></asp:LinkButton>
+                                        </asp:Panel>
+                                </div>
+                                    
+                            </div>
+                            <div class="col-md-2 col-sm-4 sm-border-top">
+                                    <div id="cssmenu1">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fi ion-android-color-palette"></i>Upload</a>
+                                            <ul>
+                                                <li><a href="frmAddAdvertisement.aspx">Advertisement</a></li>
+                                                <li><a href="frmAddShortfilm.aspx">Short Film</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-3 col-sm-4 border-left sm-border-top">
+                                <asp:UpdatePanel ID="upld" runat="server">
+                                    <ContentTemplate>
+                                        <div id="cssmenu1">
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><i class="fi fa fa-user"></i>
+                                                        <asp:Label ID="lblUsername" runat="server" CssClass="sentanceHide"></asp:Label></a>
+                                                    <ul>
+                                                        <li><a href="frmSharingBudget.aspx" style="width: 210px;">My Earning's
+                                                    <asp:Label ID="lblEarningMoney" runat="server" CssClass="pull-right"></asp:Label></a></li>
+                                                        <li><a href="frmPublishShortFilm.aspx" style="width: 210px;">Publish Short Film</a></li>
+                                                        <li>
+                                                            <a href="Inbox.aspx" style="width: 210px;">
+                                                                <i class="icon-envelope-open"></i>Inbox
+                                                    <asp:Label ID="lblInbox" runat="server" CssClass=" badge" Style="background-color: red;"></asp:Label>
+                                                            </a>
+                                                        </li>
+                                                        <li><a href="Settings.aspx" style="width: 210px;">Profile</a></li>
+                                                        <li><a href="Help.aspx" style="width: 210px;">Help</a></li>
+                                                        <li>
+                                                            <asp:LinkButton ID="lnk" runat="server" OnClick="lnk_Click" Style="width: 210px;">Logout</asp:LinkButton></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </ContentTemplate>
+                                </asp:UpdatePanel>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Main Bar -->
+                <!-- Main Navigation -->
+                <div id="main-navigation">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-sm-12">
+                                <div id="cssmenu">
+                                    <asp:Literal ID="lt_Menu" runat="server"></asp:Literal>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-right">
+                                <asp:UpdatePanel ID="upl22" runat="server">
+                                    <ContentTemplate>
+                                        <a>
+                                            <asp:Button ID="lblCode" runat="server" class="btn btn-danger btn-danget wallet"></asp:Button>
+                                            <span onclick="return confirm('Are you sure!... you want to be a Promoter')">
+                                                <asp:Button ID="btnCreate" runat="server" CssClass="btn btn-info btn-info wallet" Text="Create Promo Code" OnClick="btnCreate_Click" />
+                                            </span>
+                                        </a>
+                                        <a href="frmAllAdvatizment.aspx">
+                                            <button type="button" class="btn btn-default btn-default wallet">
+                                                <%--<i class="fi ion-pricetag"></i>&nbsp;--%>Wallet: <i class="fa fa-inr"></i>&nbsp;<asp:Label ID="lblAmount" runat="server" />
+                                            </button>
+                                        </a>
+                                    </ContentTemplate>
+                                    <Triggers>
+                                        <asp:PostBackTrigger ControlID="btnCreate" />
+                                    </Triggers>
+                                </asp:UpdatePanel>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Main Navigation -->
+                <!-- Secondary Section -->
+                <div id="secondary-section">
+                    <div class="container">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+
+                <!-- Secondary Section -->
+
+
+
+                <!-- copyright -->
+                 <footer style="padding-top: 50px; margin-top: 100px; color: #99979c;  text-align: center; "> 
+                <!-- copyright -->
+                <div id="copyright">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                                <p>
+                                    Copyright 2017 by N Screens. All right reserved. Developed by <a href="#">Emerging Software Solutions</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- copyright -->
+                 </footer>
+                <!-- copyright -->
+
+            </div>
+        </div>
+        <div>
+        </div>
+
+        <div id="myModalMasterPage" tabindex="-1" role="dialog" class="modal fade" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <asp:Panel ID="pnlUpdate" runat="server" DefaultButton="btnUpdate">
+                    <asp:UpdatePanel ID="uplUpdate" runat="server">
+                        <ContentTemplate>
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" tabindex="500">
+                                    &times;</button>
+                                <h4 id="myModalLabel" class="modal-title">
+                                    Upload Image</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-horizontal">
+                                    <div class="form-group">
+                                            <asp:Label ID="Label1" runat="server" Text="Contact info :" CssClass="col-sm-4 control-label" />
+                                            <div class="col-sm-6">
+                                                <asp:TextBox ID="txtContactinfo" runat="server" CssClass="form-control"></asp:TextBox>
+                                            </div>
+                                        </div>
+                                     <div class="form-group">
+                                            <asp:Label ID="Label6" runat="server" Text="State :" CssClass="col-sm-4 control-label" />
+                                            <div class="col-sm-6">
+                                                <asp:DropDownList ID="ddlState" runat="server" CssClass="form-control" AutoPostBack="true" OnSelectedIndexChanged="ddlState_SelectedIndexChanged"></asp:DropDownList>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <asp:Label ID="lblDistrict" runat="server" Text="District :" CssClass="col-sm-4 control-label" />
+                                            <div class="col-sm-6">
+                                                <asp:DropDownList ID="ddlDistrict" runat="server" CssClass="form-control" AutoPostBack="true" OnSelectedIndexChanged="ddlDistrict_SelectedIndexChanged"></asp:DropDownList>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <asp:Label ID="lblCity" runat="server" Text="City :" CssClass="col-sm-4 control-label" />
+                                            <div class="col-sm-6">
+                                                <asp:DropDownList ID="ddlCity" runat="server" CssClass="form-control"></asp:DropDownList>
+                                            </div>
+                                        </div>
+                                     <div class="form-group">
+                                            <asp:Label ID="lblImage" runat="server" Text="Image :" CssClass="col-sm-4 control-label" />
+                                            <div class="col-sm-6">
+                                                <asp:FileUpload ID="fupImage" runat="server" />
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="clearfix">
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <asp:Button ID="btnClose" runat="server" Text="Close" CssClass="btn btn-default"
+                                    data-dismiss="modal" aria-hidden="true" TabIndex="506" />
+                                <asp:Button ID="btnUpdate" runat="server" Text="Submit" CssClass="btn btn-info pull-right"
+                                    ValidationState="Update" CommandName="Update" OnClick="btn_Click" TabIndex="505" />
+                            </div>
+                        </ContentTemplate>
+                        <Triggers>
+                            <asp:PostBackTrigger ControlID="btnUpdate" />
+                        </Triggers>
+                    </asp:UpdatePanel>
+                </asp:Panel>
+            </div>
+        </div>
+    </div>
+
+
+        <script src="../js/wow.min.js"></script>
+
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/css-menu.js"></script>
+        <script src="../js/jquery.validate.js"></script>
+        <script src="../js/owl.carousel.min.js"></script>
+        <script src="../js/custom.js"></script>
+
+        <%--<script type="text/javascript">
+
+            $().ready(function () {
+                $('.send-form').validate({
+                    submitHandler: function () {
+                        var curForm = $('.send-form');
+                        $("<div />").addClass("formOverlay").appendTo(curForm);
+
+                        $.ajax({
+                            url: 'mail.php',
+                            type: 'POST',
+                            data: curForm.serialize(),
+                            success: function (data) {
+                                var res = data.split("::");
+                                curForm.find("div.formOverlay").remove();
+                                curForm.prev('.expMessage').html(res[1]);
+                                if (res[0] == 'Success') {
+                                    curForm.remove();
+                                    curForm.prev('.expMessage').html('');
+                                }
+                            }
+                        });
+                        return false;
+                    }
+                })
+            })
+        </script>--%>
+    </form>
+</body>
+</html>
